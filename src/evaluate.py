@@ -37,5 +37,5 @@ def plot_confusion_matrices(cm1, cm2, name1, name2, class_names, save_path="../o
     axes[1].set_ylabel("Actual")
 
     plt.tight_layout()
-    plt.savefig(save_path)
+    plt.close(fig)
     plt.show()
